@@ -15,9 +15,6 @@ if ($class_pdo->controlToken($_SESSION['auth']))
 <body>
     Bilgiler Burada
     <hr>
-    <?php
-    echo date("Y-m-d H:i:s");
-    ?>
     <br>
     <a href="logout.php"> Çıkış Yap </a>
 </body>
